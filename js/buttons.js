@@ -766,7 +766,7 @@ $('#btn64').click(function(ev){
 //     ev.preventDefault();
 //     var data = ev.dataTransfer.getData("text");
 //     ev.target.appendChild(document.getElementById(data));
-}
+//}
 
 $('#yes65').click(function() {
     $( "#drag65" ).draggable({
