@@ -1,0 +1,488 @@
+body {
+	background-color: #596673;
+	font-family: 'Baloo Tamma', cursive;
+}
+
+
+
+h1 {
+	font-size: 4em;
+	color: #f2f2f2;
+	text-align: center;
+	margin: 40px 25px 0px;
+	line-height: 1.2em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+#start {
+	text-align: center;
+	line-height: 0;
+	background-color: darkblue;
+	color: white;
+	padding: 10px 25px 5px;
+	border-radius: 20px;
+	max-width: 400px;
+	margin: 100px auto;
+}
+
+.hov-bob {
+	display: block;
+
+}
+
+button {
+	width: 800px;
+	padding-top: 7px;
+	border-radius: 20px;
+	margin: 50px 200px;
+	font-family: 'Baloo Tamma', cursive;
+	font-size: 2em;
+	background-color: #ffe6e6;
+}
+
+/*#buttons {
+	display: none;
+}*/
+
+#btn2 {
+	width: 400px;
+}
+
+#hidden8 {
+	display: none;
+	font-size: 2em;
+	margin: 50px auto;
+}
+
+/*button 9*/
+#pentagon {
+    width: 54px;
+    position: relative;
+    border-width: 50px 18px 0;
+    border-style: solid;
+    border-color: yellow transparent;
+    margin: auto;
+    display: none;
+}
+
+#pentagon:before {
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: -85px;
+    left: -18px;
+    border-width: 0 45px 35px;
+    border-style: solid;
+    border-color: transparent transparent yellow;
+}
+/*end button 9 pentagon*/
+
+#box10 {
+	position: relative;
+	display: none;
+}
+
+#video {
+	text-align: center;
+	display: none;
+}
+
+#btn11 {
+	border: 0px dashed white;
+}
+
+#btn23 {
+	top: 500px;
+}
+
+#cheese {
+	margin: 0 auto;
+	display: none;
+}
+
+.dot {
+        position: absolute;
+        width: 2px;
+        height: 2px;
+        background: black;
+}
+
+.rainbowize {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+#colorbox, #colorbox2 {
+	display: block;
+	margin: 50px auto;
+}
+
+#btn41 {
+	background-color: aqua;
+}
+
+.divclick {
+	width: 200px;
+	height: 200px;
+	margin: 0;
+	padding: 10px;
+}
+
+#btn33 {
+	opacity: 0;
+}
+
+#buttons2 {
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
+
+.button {
+	display: inline-block;
+    width: 1370px;
+    height: 725px;
+    margin: 5px 0px;
+    padding: 15px 25px;
+    border: 2px solid #ffe6e6;
+    background-color: ghostwhite;
+    z-index: 0;
+    position: relative;
+}
+
+#left51 {
+	position: absolute;
+	width: 100px;
+	height: 755px;
+	left: 0px;
+	top: 0px;
+	opacity: .75;
+	background-color: #8FBC8F;
+	z-index: 1;
+}
+
+#btn52 {
+	position: relative;
+}
+
+#bottom52 {
+	position: absolute;
+	width: 1420px;
+	height: 120px;
+	left: 0px;
+	bottom: 0px;
+	opacity: .75;
+	background-color: #8FBC8F;
+	z-index: 1;
+}
+
+#left53, #left54, #left55, #left56, #left57 {
+	position: absolute;
+	width: 100px;
+	height: 755px;
+	left: 0px;
+	top: 0px;
+	opacity: .75;
+	background-color: #8FBC8F;
+	z-index: 2;
+}
+
+#right53, #right54, #right55, #right56, #right57 {
+	position: absolute;
+	width: 100px;
+	height: 755px;
+	right: 0px;
+	bottom: 0px;
+	opacity: .70;
+	background-color: #F08080;
+	z-index: 1;
+}
+
+#left57, #right57 {
+	height: 377px;
+	opacity: 1;
+}
+
+
+.originalpusheen, .hidepusheen {
+	width: 300px;
+	height: 300px;
+	z-index: 1;
+	position: absolute;
+	top: 200px;
+	left: 550px;
+}
+
+.hidepusheen {
+	display: none;
+}
+
+#pusheen58, #pusheen59 {
+	display: block;
+}
+
+#pusheen58b, #pusheen59b {
+	display: none;
+}
+
+#bird60 {
+	width: 300px;
+	height: 300px;
+	z-index: 2;
+	position: absolute;
+	top: 200px;
+	left: 550px;
+	opacity: 1;
+}
+
+
+#bird61 {
+	width: 300px;
+	height: 300px;
+	z-index: 1;
+	position: absolute;
+	top: 200px;
+	left: 350px;
+	opacity: 1;
+}
+
+#pusheen61 {
+	width: 300px;
+	height: 300px;
+	z-index: 2;
+	position: absolute;
+	top: 200px;
+	left: 650px;
+	opacity: 1;
+}
+
+/*shapes*/
+.circle { /*simple circle*/
+  background: green;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.square { /*simple square*/
+  background: gold;
+  width: 80px;
+  height: 80px;
+}
+
+.heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+}
+.heart:before,
+.heart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: red;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+.heart:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+
+.diamond-narrow {
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-bottom: 70px solid blue;
+	position: relative;
+	top: -50px;
+}
+.diamond-narrow:after {
+	content: '';
+	position: absolute;
+	left: -50px; top: 70px;
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-top: 70px solid blue;
+}
+/*end shapes*/
+
+.dragbtn {
+	font-size: 1em;
+	width: 160px;
+	margin: 10px;
+	background-color: seagreen;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 25px;
+	text-align: center;
+}
+
+#drag65 {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	left: 710px;
+	top: 300px;
+	opacity: .75;
+	background-color: seagreen;
+}
+
+#form67 {
+	display:none;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	width: 100%;
+	height: 100%;
+}
+#all69 {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+	opacity: 0;
+	background-color: black;
+}
+
+#btn70 button {
+	width: 250px;
+	display: inline-block;
+	margin: 60px 200px;
+}
+
+
+#filerequest75 {
+	border:4px solid blue; 
+	background-color:#7B68EE; 
+	color:white; 
+	width: 600px;
+	height: 300px;
+	text-align: center;
+	padding: auto;
+	margin: 150px auto;
+	font-size: 2em;
+}
+
+#btn78 button {
+	width: 200px;
+	display: inline-block;
+}
+#btn78 p{
+	font-family: Times;
+	font-size: 14pt;
+}
+#english {
+	display: none;
+}
+
+#block80, #block81, #block82 {
+	width: 600px;
+	height: 300px;
+	border: 5px solid black;
+	text-align: center;
+	padding: auto;
+	margin: 150px auto;
+	font-size: 2em;
+	position: relative;
+	z-index: -1;
+}
+
+.rainbow80, .rainbow81, .rainbow82 {
+	width: 600px;
+	height: 300px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#red80, #red81, #red82{
+	background-color: red;
+	opacity: 0;
+	z-index: 1;
+}
+
+#orange80, #orange81, #orange82 {
+	background-color: orange;
+	opacity: 0;
+	z-index: 2;
+}
+
+#yellow80, #yellow81, #yellow82 {
+	background-color: yellow;
+	opacity: 0;
+	z-index: 3;
+}
+
+#green80, #green81, #green82{
+	background-color: green;
+	opacity: 0;
+	z-index: 4;
+}
+
+#blue80, #blue81, #blue82 {
+	background-color: blue;
+	opacity: 0;
+	z-index: 5;
+}
+
+#purple80, #purple81, #purple82 {
+	background-color: #4B0082;
+	opacity: 0;
+	z-index: 6;
+}
+
+.blendmode {
+	background-color: #4682B4;
+	background-image: url(.../img/underwater.jpg);
+
+}
+
+
+
+#btn90 {
+	font-family: Verdana;
+}
+
+#btn90 button {
+	font-size: 1em;
+	width: 160px;
+	margin: 10px;
+}
+
+
+
+
+
